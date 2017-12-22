@@ -4,7 +4,7 @@
 @section('html')
 	<section class="section">
 		<img class="img-res" src="/imgs/video/1.png" alt="">
-		<div class="overlay">
+		<div class="overlay" style="background-color: rgba(255,255,255,0.75);">
 			<div class="display-table full-width full-height">
 				<div class="display-tablecell">
 					<div class="center">

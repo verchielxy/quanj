@@ -15,7 +15,7 @@ class MainController extends Controller
     public function index(Request $request)
     {
         return view('index',[
-            'TITLE'=>'ceshi',
+            'TITLE'=>'速览家',
             'PAGE_CODE'=>route('index'),
             'META_KEYWORDS'=>'',
             'META_DESC'=>'',
