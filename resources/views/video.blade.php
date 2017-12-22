@@ -128,7 +128,7 @@
 			    	@endphp
 					
 					<div class="row">
-			    		@foreach($rows2 as $row)
+			    		@foreach($rows2 as $key => $row)
 				    		<div class="col-sm-4">
 				    			<div class="px1em py2em">
 				    				<div class="clearfix my-thum shadow-shallow">
