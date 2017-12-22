@@ -200,6 +200,29 @@ body{
 	z-index: 10;
 }
 
+/*tab-ul*/
+.tab-ul li{
+	
+}
+.tab-ul li a{
+	display: block;
+	position: relative;
+	font-size: 18px;
+	font-weight: 800;
+	padding: 10px 1em;
+}
+.tab-ul li a:before{
+	content: '';
+	display: block;
+	height: 2px;
+	position: absolute;
+	bottom: 2px; left: 30px; right: 30px;
+}
+
+.tab-ul .active a:before{
+	background-color: #ff0000;
+}
+
 
 /*my-thum*/
 .my-thum h4{

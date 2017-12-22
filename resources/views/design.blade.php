@@ -18,15 +18,15 @@
 	<section class="section py2em mbg-gray">
 		<div class="container">
 			<div class="clearfix mb1em">
-				<ul class="clearfix float-ul" role="tablist">
-				    <li class="p1em" role="presentation" class="active">
+				<ul class="clearfix float-ul tab-ul" role="tablist">
+				    <li role="presentation" class="active">
 				    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-				    		<h4>大师作品</h4>
+				    		大师作品
 				    	</a>
 				    </li>
-				    <li class="p1em" role="presentation">
+				    <li role="presentation">
 				    	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-				    		<h4>设计案例</h4>
+				    		设计案例
 				    	</a>
 				   	</li>
 				</ul>

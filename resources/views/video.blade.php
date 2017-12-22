@@ -18,15 +18,15 @@
 	<section class="section py2em mbg-gray">
 		<div class="container">
 			<div class="clearfix mb1em">
-				<ul class="clearfix float-ul" role="tablist">
-				    <li class="p1em" role="presentation" class="active">
+				<ul class="clearfix float-ul tab-ul" role="tablist">
+				    <li role="presentation" class="active">
 				    	<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-				    		<h4>速览家教程</h4>
+				    		速览家教程
 				    	</a>
 				    </li>
-				    <li class="p1em" role="presentation">
+				    <li role="presentation">
 				    	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-				    		<h4>工地实景教程</h4>
+				    		工地实景教程
 				    	</a>
 				   	</li>
 				</ul>
@@ -91,9 +91,9 @@
 			    	</div>
 			    </div>
 
-			    <div role="tabpanel" class="tab-pane fade in" id="profile">
+			    <div role="tabpanel" class="tab-pane fade" id="profile">
 			    	@php
-			    		$rows=[
+			    		$rows2=[
 			    			[
 			    				'/imgs/video/2.png',
 			    				'工地第一课',
@@ -128,7 +128,7 @@
 			    	@endphp
 					
 					<div class="row">
-			    		@foreach($rows as $row)
+			    		@foreach($rows2 as $row)
 				    		<div class="col-sm-4">
 				    			<div class="px1em py2em">
 				    				<div class="clearfix my-thum shadow-shallow">
